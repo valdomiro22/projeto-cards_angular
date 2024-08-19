@@ -1,0 +1,23 @@
+.balance-card {
+
+  &__header {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-left: auto;
+      font-size: 20px;
+    }
+  }
+
+  &__content-line {
+      border: 0.5px solid #9e9e9e;
+  }
+
+  &__content-summary {
+      margin-top: 30px;
+      border-radius: 5px;
+      background-color: rgba($color: #000000, $alpha: 0.1);
+      padding: 0 12px;
+  }
+}
